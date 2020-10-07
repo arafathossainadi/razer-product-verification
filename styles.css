@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #eeeeee;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #929292;
+}
+
+.rpv-main-body{
+	width: 1000px;
+    height: 550px;
+    background-color: #ffffff;
+    margin: 200px auto 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px #0000001f;
+}
+
+.rpv-left{
+	width: 300px;
+	height: 100%;
+	background-color: #000000;
+	border-radius: 15px 0 0 15px;
+	position: relative;
+	float: left;
+}
+
+.rpv-left img{
+	width: 220px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.rpv-left hr{
+	bottom: 100px;
+	position: absolute;
+	width: 99%;
+	border-color: #5E5E5E;
+}
+
+.rpv-left .social{
+	padding-top: 422px;
+    bottom: 0;
+    color: #929292;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.rpv-left ul{
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+}
+
+.rpv-left .social p{
+	display: inline;
+}
+
+.rpv-left li{
+	display: inline;
+	padding: 5px;
+}
+
+.rpv-right{
+	width: 700px;
+	height: 100%;
+	position: relative;
+	border-radius: 0 15px 15px 0;
+	float: right;
+}
+
+.rpv-right .content{
+	position: absolute;
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.rpv-right .content h1{
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 60px;
+}
+
+.rpv-right .content span{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.rpv-right input[type="text"]{
+	width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.rpv-right button{
+	width: 107%;
+	margin-top: 15px;
+	padding: 15px;
+	font-size: 20px;
+	background-color: #A0D697;
+	color: #ffffff;
+	font-family: "Titillium Web", sans-serif;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+.rpv-right button:hover{
+	background-color: #44D62C;
+}
+
+.rpv-right button:focus{
+	outline: none;
+	background-color: #44D62C;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 60px;
+}
