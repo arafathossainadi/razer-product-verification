@@ -1,0 +1,33 @@
+.rpv-right .content{
+	text-align: center;
+}
+
+.rpv-main-body .content i{
+	font-size: 150px;
+}
+
+.rpv-right .content p{
+	font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px){
+	.rpv-right .content {
+	    padding: 30px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.rpv-right .content h1 {
+	    padding: 30px 0;
+	    font-size: 25px;
+	}
+
+	.rpv-right .content p {
+	    font-size: 18px;
+	}
+
+	.rpv-main-body .content i {
+	    font-size: 120px;
+	}
+}
