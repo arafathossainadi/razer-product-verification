@@ -15,23 +15,29 @@ a{
 	color: #929292;
 }
 
+a:hover{
+	text-decoration: none;
+	color:#44D62C;
+}
+
 .rpv-main-body{
-	width: 1000px;
+	max-width: 1000px;
     height: 550px;
     background-color: #ffffff;
-    margin: 200px auto 0 auto;
+    margin: 17vh auto 0 auto;
     border-radius: 15px;
     box-shadow: 0 3px 3px #0000001f;
 }
 
 .rpv-left{
-	width: 300px;
-	height: 100%;
+	display: block;
 	background-color: #000000;
 	border-radius: 15px 0 0 15px;
-	position: relative;
-	float: left;
 }
+
+.rpv-after{
+		display: none;
+	}
 
 .rpv-left img{
 	width: 220px;
@@ -41,18 +47,13 @@ a{
 }
 
 .rpv-left hr{
-	bottom: 100px;
-	position: absolute;
-	width: 99%;
 	border-color: #5E5E5E;
+	margin-top: 400px;
 }
 
 .rpv-left .social{
-	padding-top: 422px;
-    bottom: 0;
     color: #929292;
-    margin: 0 auto;
-    width: 200px;
+    text-align: center;
 }
 
 .rpv-left ul{
@@ -73,23 +74,19 @@ a{
 .rpv-right{
 	width: 700px;
 	height: 100%;
-	position: relative;
 	border-radius: 0 15px 15px 0;
 	float: right;
 }
 
 .rpv-right .content{
-	position: absolute;
-	width: 500px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	padding: 88px;
 }
 
 .rpv-right .content h1{
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 60px;
+	font-weight: bold;
 }
 
 .rpv-right .content span{
@@ -106,7 +103,7 @@ a{
 }
 
 .rpv-right button{
-	width: 107%;
+	width: 100%;
 	margin-top: 15px;
 	padding: 15px;
 	font-size: 20px;
@@ -131,4 +128,31 @@ a{
 .copyright{
 	text-align: center;
 	padding-top: 60px;
+}
+
+@media screen and (max-width: 992px) {
+	.rpv-main-body{
+		height: auto;
+	}
+
+	.rpv-left hr{
+		margin-top: 2rem;
+	}
+	.rpv-left .social{
+		padding-bottom: 15px;
+	}
+	.rpv-left{
+		display: none;
+		border-radius: 0 0 15px 15px;
+	}
+
+	.rpv-after{
+		display: block;
+	}
+}
+
+@media screen and (max-width:768px)  {
+	.rpv-right .content {
+	     padding: 40px;
+	}
 }

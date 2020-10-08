@@ -4,15 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
-	<title>Razer Product Verification</title>
+	<title>Document</title>
 </head>
 <body>
-	<div class="rpv-main-body">
-		<div class="rpv-left">
-			<img src="razer.png" alt="">
-			<hr>
-			<div class="social">
+	<div class="container">
+		<div class="rpv-main-body row">
+			<div class="col-lg-4 col-md-12 rpv-left">
+				<img src="razer.png" alt="">
+				<hr class="row">
+				<div class="social">
 				<p>Follow us:</p>
 				<ul>
 					<a href="">
@@ -29,19 +31,42 @@
 					</a>
 				</ul>
 			</div>
-		</div>
-		<div class="rpv-right">
-			<div class="content">
-				<h1>Verify your product</h1>
-				<span>Product Code</span>
-				<input type="text">
-				<a href="#"><button>SUBMIT&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></button></a>
-				<p style="text-align: center; padding-top: 30px;">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorum fugit veritatis cum ad voluptatum pariatur</p>
+			</div>
+			<div class="col-lg-8 col-md-12 rpv-right">
+				<div class="content">
+					<h1>Verify your product</h1>
+					<span>Product Code</span>
+					<input type="text">
+					<a href="#"><button>SUBMIT&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></button></a>
+					<p style="text-align: center; padding-top: 30px;">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorum fugit veritatis cum ad voluptatum pariatur</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12 rpv-left rpv-after">
+				<img src="razer.png" alt="">
+				<hr class="row">
+				<div class="social">
+				<p>Follow us:</p>
+				<ul>
+					<a href="">
+						<li><i class="fa fa-twitter"></i></li>
+					</a>
+					<a href="">
+						<li><i class="fa fa-facebook-square"></i></li>
+					</a>
+					<a href="">
+						<li><i class="fa fa-linkedin"></i></li>
+					</a>
+					<a href="">
+						<li><i class="fa fa-youtube"></i></li>
+					</a>
+				</ul>
+			</div>
 			</div>
 		</div>
+		<div class="copyright">
+			&copy; 2020 SYP Solutions Ltd. All Rights Reserved.
+		</div>
 	</div>
-	<div class="copyright">
-		&copy; 2020 SYP Solutions Ltd. All Rights Reserved.
-	</div>
+<script src="bootstrap.js"></script>
 </body>
 </html>
